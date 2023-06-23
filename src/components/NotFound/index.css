@@ -1,0 +1,15 @@
+.notFoundMainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.notFoundImage {
+  width: 70%;
+}

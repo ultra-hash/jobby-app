@@ -1,0 +1,140 @@
+.mainJobDetailsContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+.jobDetailsCardContainer {
+  padding: 20px;
+  flex-grow: 1;
+  color: #ffffff;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.jobDetailsCardHeader > div {
+  margin-left: 20px;
+}
+
+.jobDetailsCard {
+  width: 100%;
+  padding: 20px;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+}
+
+.jobDetailsCardHeader {
+  width: 100%;
+  display: flex;
+}
+
+.jobDetailsCardHeader > img {
+  width: 50px;
+  height: 50px;
+}
+
+.jobDetailsPerksContainer {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.jobDetailsPerksContainer > * {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.jobDetailsPerksContainer > *:last-child {
+  margin-left: auto;
+}
+
+.externalLink {
+  text-decoration: none;
+  color: #6366f1;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skillsContainer > li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  width: 50%;
+  max-width: 300px;
+}
+
+.skillImg {
+  width: 50px;
+}
+
+.lifeAtCompanyContainer {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lifeAtCompanyImg {
+  width: 100%;
+}
+
+.similarJobItemDetailsContainer {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.similarJobItemDetails {
+  background-color: #272727;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 360px;
+  padding: 10px;
+}
+
+.whiteColorLink {
+  text-decoration: none;
+  color: #ffffff;
+}
+.loader-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .lifeAtCompanyContainer {
+    flex-direction: row;
+  }
+
+  .lifeAtCompanyContainer > p {
+    width: 60%;
+  }
+
+  .lifeAtCompanyImg {
+    width: 40%;
+  }
+}
